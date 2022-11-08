@@ -1,10 +1,14 @@
 
-import './App.css';
-
+import {notify} from "./utils/notif"
+import modal from "./utils/modal"
 function App() {
+
+ 
+ 
   return (
     <div>
-       <h1>welcom assurance</h1>
+      <button onClick={()=>modal('add')}>click</button>
+      <button onClick={()=>notify('add',true)}>click</button>
     </div>
   );
 }
