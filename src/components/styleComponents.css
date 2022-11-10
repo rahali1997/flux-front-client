@@ -1,0 +1,46 @@
+.navbar_container {
+  height: 75px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.logo_nav {
+  margin-left: 35px;
+  padding-bottom: 25px;
+  width: 90px;
+  height: 60px;
+  color: "#232D4B";
+  border: 1px solid red;
+}
+.logout {
+  height: 35px;
+  margin-top: -5px;
+  border: none;
+  color: #FFF;
+  background-color: #FF5858;
+}
+
+
+.sidebar_container{
+  width: 200px;
+  height: 100vh;
+  background-color: #FFF;
+}
+
+.sideBar_container-menu p {
+  margin-top: 30px;
+  color: #73777b;
+  padding: 25px;
+}
+.navLink {
+  text-decoration: none;
+}
+
+.table_container {
+  width: 800px;
+  margin-top: 80px;
+  margin-right: 250px;
+}

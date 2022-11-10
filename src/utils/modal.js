@@ -7,8 +7,8 @@ function modal(mes) {
         confirmButtonColor: '#232d4b',
         showDenyButton: true,
         showCancelButton: false,
-        confirmButtonText: 'oui',
-        denyButtonText: `Non`,
+        confirmButtonText: 'Confirmer',
+        denyButtonText: `Annuler`,
     }).then((result) => {
         return result
 
