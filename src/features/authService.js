@@ -1,6 +1,8 @@
 import axios from 'axios'
+import BaseUrl from '../baseUrl'
 
-const API_URL = 'http://localhost:4005/api/admin/login'
+
+const API_URL= `${BaseUrl}/api/admin/login`
 
 
 

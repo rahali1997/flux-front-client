@@ -1,0 +1,17 @@
+.damage_container{
+    margin: 20px auto;
+    width: 450px;
+    background-color: #FFF;
+}
+
+.damage_container > form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+form > .input_field_domage {
+    margin: 55px;
+    
+}

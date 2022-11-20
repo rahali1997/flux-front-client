@@ -1,0 +1,17 @@
+.client_container{
+    margin: 20px auto;
+    width: 550px;
+    padding: 8px;
+    background-color: #FFF;
+}
+
+.client_container > form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+form > .input_field {
+    margin: 7px;
+}
